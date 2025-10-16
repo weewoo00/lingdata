@@ -1,9 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <preferences version="1.1"
     xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://www.mpi.nl/tools/elan/Prefs_v1.1.xsd">
-    <pref key="MediaControlVolume">
-        <Float>0.95</Float>
-    </pref>
     <pref key="FrameSize">
         <Object class="java.awt.Dimension">1366,720</Object>
     </pref>
@@ -11,47 +8,30 @@
         <Object class="java.awt.Point">0,0</Object>
     </pref>
     <pref key="TimeLineViewer.ZoomLevel">
-        <Float>262.0</Float>
+        <Float>289.0</Float>
     </pref>
-    <prefList key="ExportPraatDialog.selectedTiers">
-        <String>default</String>
-        <String>text@anl2007f</String>
-        <String>text@mka2007f</String>
-        <String>words@anl2007f</String>
-        <String>pos@anl2007f</String>
-    </prefList>
     <pref key="LayoutManager.VisibleMultiTierViewer">
         <String>mpi.eudico.client.annotator.viewer.TimeLineViewer</String>
     </pref>
-    <prefList key="ExportPraatDialog.TierOrder">
-        <String>default</String>
-        <String>text@anl2007f</String>
-        <String>text@mka2007f</String>
-        <String>words@anl2007f</String>
-        <String>pos@anl2007f</String>
-    </prefList>
     <pref key="MultiTierViewer.ActiveTierName">
-        <String>pos@</String>
-    </pref>
-    <pref key="TokenizeDialog.SourceTier">
-        <String>text@anl2007f</String>
+        <String>default</String>
     </pref>
     <prefList key="MultiTierViewer.HiddenTiers"/>
-    <pref key="TokenizeDialog.DestTier">
-        <String>words@anl2007</String>
-    </pref>
-    <pref key="ExportPraatDialog.SelectTiersMode">
-        <String>Tier</String>
+    <pref key="LayoutManager.MediaAreaHeight">
+        <Int>221</Int>
     </pref>
     <prefGroup key="TierColors">
         <pref key="default">
-            <Object class="java.awt.Color">90,0,160</Object>
+            <Object class="java.awt.Color">160,90,160</Object>
         </pref>
         <pref key="text@mka2007f">
+            <Object class="java.awt.Color">160,0,90</Object>
+        </pref>
+        <pref key="gestType@anl2007">
             <Object class="java.awt.Color">0,160,0</Object>
         </pref>
         <pref key="text@anl2007f">
-            <Object class="java.awt.Color">160,160,90</Object>
+            <Object class="java.awt.Color">160,0,160</Object>
         </pref>
     </prefGroup>
     <prefList key="MultiTierViewer.TierOrder">
@@ -60,11 +40,13 @@
         <String>text@mka2007f</String>
         <String>words@anl2007f</String>
         <String>pos@anl2007f</String>
+        <String>gestType@anl2007</String>
+        <String>gestMeaning@anl2007f</String>
+        <String>gestBody@@anl2007f</String>
+        <String>gestureHead@anl2007f</String>
+        <String>gestureHands@anl2007f</String>
     </prefList>
-    <prefGroup key="TierHighlightColors"/>
     <pref key="LayoutManager.CurrentMode">
         <Int>1</Int>
     </pref>
-    <prefList key="ExportPraatDialog.HiddenTiers"/>
-    <prefGroup key="TierFonts"/>
 </preferences>
